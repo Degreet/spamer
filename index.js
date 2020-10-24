@@ -10,7 +10,7 @@ dotenv.config()
 
 const dbName = "spamer-test"
 const appName = "Spamer"
-const linkToHeroku = `http://localhost:3000`
+const linkToHeroku = `https://spamer-js.herokuapp.com`
 
 const PORT = process.env.PORT || 3000
 const pass = process.env.KEY
