@@ -1,0 +1,20 @@
+{
+  "name": "app-name",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Degreet <degreetpro@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "c4console": "^1.0.8",
+    "cookies": "^0.8.0",
+    "dotenv": "^8.2.0",
+    "mongodb": "^3.6.2"
+  },
+  "keywords": [],
+  "description": ""
+}
