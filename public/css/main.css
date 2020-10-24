@@ -35,3 +35,110 @@ body {
 #error p {
   font-size: 20px;
 }
+
+#subscribeSect {
+  border: 1px solid #E1E6F9;
+  border-radius: 9px;
+  padding-right: 7px;
+  background: #fff;
+  transition: .3s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#subscribeSect.focused {
+  border-color: #275EFE;
+}
+
+#subscribeSect input {
+  background: transparent;
+  border: none;
+  color: #646B8C;
+  padding: 16px;
+  font-size: 15px;
+}
+
+#subscribeSect input::placeholder {
+  color: #A6ACCD;
+}
+
+#subscribeSect input:focus::placeholder {
+  opacity: 0;
+}
+
+#subscribeSect input:focus,
+h2.success {
+  color: #275efe;
+}
+
+#subscribeSect button,
+button#sendBtn {
+  background: #A4AECA;
+  color: #fff;
+  border: none;
+  border-radius: 7px;
+  padding: 10px 0;
+  min-width: 130px;
+  text-align: center;
+  font-weight: bold;
+  cursor: not-allowed;
+  font-size: 15px;
+  transition: .3s;
+}
+
+#subscribeSect button.allowed,
+button#sendBtn {
+  background: #275EFE;
+  cursor: pointer;
+}
+
+button#sendBtn {
+  margin-top: 15px;
+  width: 100%;
+}
+
+button#sendBtn:hover {
+  background: #275dfef1;
+}
+
+button#sendBtn:active {
+  transform: scale(.9);
+}
+
+div.Toaster-toast {
+  background: #275EFE;
+  border-radius: 3px;
+  color: #fff;
+}
+
+div.Toaster-toast .toast-close {
+  color: #fff;
+}
+
+textarea {
+  border: 1px solid #E1E6F9;
+  border-radius: 9px;
+  padding-right: 7px;
+  background: #fff;
+  transition: .3s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #646B8C;
+  padding: 16px;
+  resize: none;
+  transition: .3s;
+}
+
+textarea::placeholder {
+  color: #A6ACCD;
+}
+
+textarea:focus {
+  border-color: #275EFE;
+}
+
+textarea:focus::placeholder {
+  opacity: 0;
+}

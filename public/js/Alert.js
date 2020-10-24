@@ -1,7 +1,7 @@
 class Alert {
-  constructor(type, text) {
+  constructor( text) {
     const alert = document.createElement("div")
-    alert.className = `alert alert-${type}`
+    alert.className = `alert`
     alert.innerText = text
     document.body.append(alert)
     this.alert = alert
@@ -19,10 +19,6 @@ class Alert {
     `
     
     document.head.append(styles)
-  }
-
-  setType(type) {
-    this.alert.className = `alert alert-${type}`
   }
 
   setText(text) {
